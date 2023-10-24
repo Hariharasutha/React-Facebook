@@ -1,38 +1,132 @@
-.App {
-  text-align: center;
+.search-box{
+  background: transparent;
+  border: 0;
+  outline: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.search-container{
+  border-color:transparent;
+  background-color: rgb(134 144 144 / 14%);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+html{
+  background: rgb(134 144 144 / 14%) !important;;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+body{
+  background: transparent !important;
+}
+
+.background-white{
+  background: white;
+}
+
+.br-10{
+ border-radius: 10px !important;
+}
+
+.br-20{
+  border-radius: 20px !important;
+}
+
+.menu{
+  color: gray;
+}
+
+.cursor-pointer{
+  cursor: pointer !important;
+}
+
+.menu > div {
+  padding: 5px 15px;
+  margin: 0px 15px;
+}
+
+.menu .active {
+  color: rgb(2, 141, 255);
+  border-bottom: 2px solid rgb(2, 141, 255) ;
+}
+
+
+.profile{
+  color: gray;
+}
+
+.username{
+  color: black;
+}
+
+.profile > div{
+  padding-left: 15px;
+  font-size: 20px;
+}
+
+.profile > div > button > svg {
+  font-size: 20px;
+} 
+
+.content-left > div {
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  padding: 15px;
+
+}
+
+.content-left > div > svg{
+  color:rgb(2, 141, 255);
+  font-size: 25px;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+/*  status */
+.status:hover{
+  transform: scale(1.1);
+}
+
+.content-status{
+  height: 350px;
+}
+
+.status-profile{
+  position: relative;
+  bottom: 8em;
+  right: 11em;
+  border: 3px solid rgb(2, 141, 255);
+  border-radius: 30px;
+}
+
+.status > .name{
+  position: relative;
   color: white;
+  height: fit-content;
+  width: fit-content;
+  bottom: 4em;
+  left: 1em;
 }
 
-.App-link {
-  color: #61dafb;
+.create-post{
+  color: gray;
+  padding: 30px 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.create-post  .search-box{
+  border-color:transparent;
+  background-color: rgb(134 144 144 / 14%);
+  border-radius: 20px;
+  padding: 10px;
+  margin-left: 10px !important ;
+}
+
+.post-icon >svg {
+  margin-right: 10px;
+  font-size: 20px;
+  cursor :pointer;
+}
+
+.br-10{
+  border-radius: 10px !important;
+}
+
+.color-gray{
+  color: gray;
 }
