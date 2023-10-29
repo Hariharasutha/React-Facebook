@@ -1,12 +1,12 @@
 import React from "react";
-import img from "../images/user-logo3.png";
 import { ChatLeftDots, CollectionPlay, Flag, HouseDoor, PlusSquare, ShopWindow } from "react-bootstrap-icons";
 
 export default function Menuu() {
+
   return (
     <div className="content-left mb-20 ">
       <div className="d-flex align-items-center ms-2 ">
-        <img src={img} width={32} height={32} alt="" className="br-10"/>
+        <img src="https://img.freepik.com/premium-vector/h-logo-design-template-creative-h-icon-initials-based-letters-vector_487414-2807.jpg?size=626&ext=jpg&uid=R114558677&ga=GA1.1.302970376.1693332036&semt=ais " width={32} height={32} alt="" className="br-20"/>
         <b className="ms-2">{"Hariharasuthan"}</b>
       </div>
         <div className="d-flex cursor-pointer">

@@ -29,6 +29,10 @@ body{
   border-radius: 20px !important;
 }
 
+.pu-20{
+  padding-top: 100%;
+}
+
 .menu{
   color: gray;
 }
@@ -46,7 +50,6 @@ body{
   color: rgb(2, 141, 255);
   border-bottom: 2px solid rgb(2, 141, 255) ;
 }
-
 
 .profile{
   color: gray;
@@ -89,8 +92,8 @@ body{
 
 .status-profile{
   position: relative;
-  bottom: 8em;
-  right: 11em;
+  bottom: 20em;
+  left: 1em;
   border: 3px solid rgb(2, 141, 255);
   border-radius: 30px;
 }
@@ -100,7 +103,7 @@ body{
   color: white;
   height: fit-content;
   width: fit-content;
-  bottom: 4em;
+  bottom: 6em;
   left: 1em;
 }
 

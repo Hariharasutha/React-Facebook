@@ -12,6 +12,7 @@ import {
   Search,
   ShopWindow,
 } from "react-bootstrap-icons";
+import { NavLink } from "react-router-dom";
 
 function Header() {
   return (
@@ -33,20 +34,30 @@ function Header() {
           />
         </div>
         <div className="d-flex menu fs-3 cursor-pointer ">
-          <div className="active">
-            <HouseDoor />
+          <div className="">
+          <NavLink to="/" className="title">
+              <HouseDoor />
+             </NavLink>
           </div>
           <div className="svg">
+          <NavLink to="/group" className="title">
             <Flag />
+            </NavLink>
           </div>
           <div>
+          <NavLink to="/vide" className="title">
             <CollectionPlay />
+            </NavLink>
           </div>
           <div>
+          <NavLink to="/cart" className="title">
             <ShopWindow />
+            </NavLink>
           </div>
           <div>
+          <NavLink to="/users" className="title">
             <People />
+          </NavLink>
           </div>
           
         </div>

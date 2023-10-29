@@ -5,7 +5,7 @@ import Login from './components/Login';
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 function App() {
-   const user ='hari'
+  const user = 'ert';
 
   return (
     <div>

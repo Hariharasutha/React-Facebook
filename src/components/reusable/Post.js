@@ -1,5 +1,4 @@
 import React from "react";
-import img from "../images/user-logo3.png";
 import {
   ChatLeftFill,
   HandThumbsUpFill,
@@ -10,10 +9,10 @@ export default function Post(props) {
   return (
     <div className="create-post background-white br-10 mb-4 px-4">
       <div className="d-flex">
-        <img src={img} width={32} height={32} alt="" className="br-10" />
+        <img src={props.profilepic} width={32} height={32} alt="" className=" me-2 br-10" />
         <div>
-          <div className="ps-3">{props.username}</div>
-          <div className="ps-3">{props.date}</div>
+          <div className="ps-2">{props.username}</div>
+          <div className="ps-2">{new Date(props.timestamp?.toDate()).toLocaleString()}</div>
         </div>
       </div>
       <p className="ps-3 pt-4">{props.message}</p>
