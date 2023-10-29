@@ -3,7 +3,7 @@ import './style/video.css'
 import pic1 from '../images/images/profile1.jpg';
 
 const ShowPost = () => {
-  const [state, setState] = React.useState([
+  const [state,] = React.useState([
     {
       id: 1,
       userImg: pic1,
